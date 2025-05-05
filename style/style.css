@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: black;
+    padding: 12px 100px;
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/iconmu.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent:-9999999px;
+    margin-right: 168px;
+}
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header.flex{
+    justify-content: flex-start;
+}
+header ul{
+    width: 271px;
+}
+header ul a{
+    color:#ffffff;
+    font-size: 18px;
+}
+main{
+    padding: 50px 100px;
+}
+h2{
+    font-size: 24px;
+    
+}
+article{
+    width: 300px;
+    height: 244px;
+    border: 1px solid #000000;
+    position: relative;
+    padding: 145px 12px 49px 12px;
+    background-image:url(../img/sound\ 3.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 57px;
+    margin-bottom: 9px;
+    margin-top: 51px;
+}
+.heart{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/heart.png);
+    position: absolute;
+    top: -3px;
+    right: 0;
+}
+article h3{
+    font-size: 18px;
+    
+}
+article p a{
+    color: black;
+}
+article p{
+    font-size: 14px;
+    margin-top: 13px;
+}
+.statia p{
+    color:black;
+    
+}
+article div:Hover{
+    background-image:url(../img/like2.png);}
+
+article:hover{
+    box-shadow: 0 0 5px black;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+/* foooter */
+footer{
+    background-color: #000000;
+    color: #ffffff;
+
+    text-align: center;
+    padding: 27px 17px;
+}
+footer a{color: #ffffff;}
+footer img{
+    width: 150px;
+}
+footer nav{
+    margin: 25px 0 50px 0;
+}
+.socials{
+    width: 50px;
+    height: 100px;
+ 
+    position: fixed;
+    right: 0;
+    top: 213px;
+}
+.socialicon{
+    width: 100%;
+    height: 50%;
+}
+.fb{
+    background-image: url(../img/fb.png);
+    background-size: 100%;
+}
+.insta{
+    background-image: url(../img/instagram.png);
+    background-size: 100%;
+}
+.fb:hover{
+    background-image: url(../img/facebookhover.png);
+}
+.insta:hover{
+    background-image: url(../img/instagramhover.png);
+}
+.socialicon a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section li a{
+    color: #000000;
+}
+section li{
+    margin: 8px;
+}
+section{
+    margin-bottom: 51px;
+}
+.container {
+    width: 720px;
+}
+.soundcont{
+    width: 260px;
+    height: 65px;
+    background-size: 25%;
+    background-repeat: repeat-x;
+    background-image: url(../img/sound\ 3.png);
+    margin: 46px auto 108px auto;
+}
+.thanks{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300px;
+    margin-bottom: 143px;
+}
